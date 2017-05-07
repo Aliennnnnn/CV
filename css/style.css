@@ -1,0 +1,253 @@
+/*
+* @Author: Aliennnnnn
+* @Date:   2017-05-06 21:25:34
+* @Last Modified by:   Aliennnnnn
+* @Last Modified time: 2017-05-07 22:30:34
+*/
+/*public style*/
+body,
+div,
+dl,
+dt,
+dd,
+ul,
+ol,
+li,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+pre,
+code,
+form,
+fieldset,
+legend,
+input,
+p,
+blockquote,
+th,
+td
+{
+    margin: 0;
+    padding: 0;
+}
+header,
+footer,
+article,
+aside,
+section,
+nav,
+menu,
+hgroup,
+details,
+dialog,
+figure,
+figcaption
+{
+    display: block;
+}
+ol,
+li,
+ul,
+dl,
+dt,
+dd
+{
+    list-style: none;
+}
+fieldset,
+img
+{
+    border: 0;
+}
+button,
+submit,
+input,
+select
+{
+    vertical-align: middle;
+}
+button,
+submit
+{
+    cursor: pointer;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+{
+    font-size: inherit;
+    font-weight: lighter;
+}
+table
+{
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+sup
+{
+    vertical-align: text-top;
+}
+sub
+{
+    vertical-align: text-bottom;
+}
+select,
+button
+{
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+
+    margin: 0;
+    padding: 0;
+
+    outline-width: 0;
+    outline-style: none;
+}
+b,
+em,
+i
+{
+    font-weight: normal;
+    font-style: normal;
+
+    display: inline-block;
+}
+.clearfix:after
+{
+    display: block;
+    visibility: hidden;
+    clear: both;
+
+    height: 0;
+
+    content: '.';
+} .clearfix
+{
+    zoom: 1;
+}
+.container
+{
+    position: relative;
+
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl
+{
+    float: left;
+}
+.fr
+{
+    float: right;
+}
+
+html
+{
+    height: 100%;
+}
+body
+{
+    height: 100%;
+    color: #fff;
+}
+#cv
+{
+    width: 100%;
+    height: 100%;
+}
+.section
+{
+    width: 100%;
+    height: 100%;
+}
+.section > div > div
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+.hello
+{
+    font-size: 100px;
+    margin-left: -150px;
+    margin-top: -50px;
+}
+.about img{
+	width: 145px;
+	height: 145px;
+	border-radius: 100px;
+	border:10px solid #aee2d9;
+	box-shadow: 0px 0px 5px; 
+	transition: .5s ease;
+    display: none;
+    margin-left: 140px;
+}
+.about img:hover{
+	border-color: #d6f285;
+}
+h1
+{
+    font-family: Microsoft Yahei;
+    font-size: 50px;
+    font-weight: bold;
+    text-shadow: 1px 2px #22c3aa, 2px 4px #aee2d9;
+}
+.about .name{
+    display: none;
+}
+.about .sex,
+.age,
+.school
+{
+    font-size: 20px;
+    margin-top: 10px;
+    display: none;
+}
+.about .subtitle,
+.email
+{
+    font-size: 30px;
+    color: #333;
+    display: none;
+}
+.about .email a
+{
+    transition: .5s ease;
+    text-decoration: none;
+    color: #008a75;
+}
+.about .email a:hover
+{
+    color: #efef0e;
+}
+.skills h1{
+    margin-bottom: 20px;
+}
+.skills .skill{
+    display: inline-block;
+	width: 90px;
+	height: 90px;
+	border-radius: 50px;
+	background-color: #4f4454;/*#2d2b2d;*/
+	text-align: center;
+	line-height: 90px;
+    visibility: hidden;
+}
+.skills .familiar{
+    background-color: #575259;
+}
+.row-1,.row-2{
+    clear: both;
+}
+.row-1,.row-2,.row-3,.row-4{
+    margin: 10px 8px 0 0;
+}
