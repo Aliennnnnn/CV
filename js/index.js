@@ -2,7 +2,7 @@
 * @Author: Aliennnnnn
 * @Date:   2017-05-06 22:27:17
 * @Last Modified by:   Aliennnnnn
-* @Last Modified time: 2017-05-08 11:10:46
+* @Last Modified time: 2017-05-08 20:48:41
 */
 
 'use strict';
@@ -11,7 +11,7 @@ $(document).ready(function(){
 	$('#cv').fullpage({
 		'verticalCentered': true,
 		'css3': true,
-		'sectionsColor': ['#22B573','#26B1B6','#9C58B6','#9C58B6'],
+		'sectionsColor': ['#22B573','#26B1B6','#9C58B6','#18e2cb'],
 		'navigation': true,
 		afterLoad: function(anchorLink,index){
 			if(index == 2){
