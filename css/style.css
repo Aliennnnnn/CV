@@ -2,7 +2,7 @@
 * @Author: Aliennnnnn
 * @Date:   2017-05-06 21:25:34
 * @Last Modified by:   Aliennnnnn
-* @Last Modified time: 2017-05-07 22:30:34
+* @Last Modified time: 2017-05-08 11:07:43
 */
 /*public style*/
 body,
@@ -178,8 +178,8 @@ body
 .hello
 {
     font-size: 100px;
-    margin-left: -150px;
     margin-top: -50px;
+    margin-left: -150px;
 }
 .about img{
 	width: 145px;

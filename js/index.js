@@ -2,11 +2,12 @@
 * @Author: Aliennnnnn
 * @Date:   2017-05-06 22:27:17
 * @Last Modified by:   Aliennnnnn
-* @Last Modified time: 2017-05-07 22:29:41
+* @Last Modified time: 2017-05-08 11:07:12
 */
 
 'use strict';
 $(document).ready(function(){
+	$('.hello').addClass('animated rubberBand');
 	$('#cv').fullpage({
 		'verticalCentered': true,
 		'css3': true,
@@ -14,9 +15,7 @@ $(document).ready(function(){
 		'navigation': true,
 		afterLoad: function(anchorLink,index){
 			//var loadedSection = $(this);
-			if(index == 1){
-				$('.hello').addClass('animated rubberBand')
-			}else if(index == 2){
+			if(index == 2){
 				// eleMove($('.name'))
 				// eleMove($('.age'))
 				// eleMove($('.subtitle'))
