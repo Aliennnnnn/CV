@@ -2,27 +2,19 @@
 * @Author: Aliennnnnn
 * @Date:   2017-05-06 22:27:17
 * @Last Modified by:   Aliennnnnn
-* @Last Modified time: 2017-05-07 22:29:41
+* @Last Modified time: 2017-05-08 11:12:44
 */
 
 'use strict';
 $(document).ready(function(){
+	$('.hello').addClass('animated rubberBand');
 	$('#cv').fullpage({
 		'verticalCentered': true,
 		'css3': true,
 		'sectionsColor': ['#22B573','#26B1B6','#9C58B6','#9C58B6'],
 		'navigation': true,
 		afterLoad: function(anchorLink,index){
-			//var loadedSection = $(this);
-			if(index == 1){
-				$('.hello').addClass('animated rubberBand')
-			}else if(index == 2){
-				// eleMove($('.name'))
-				// eleMove($('.age'))
-				// eleMove($('.subtitle'))
-				// eleMove($('.sex'))
-				// eleMove($('.email'))
-				// eleMove($('.school'))
+			if(index == 2){
 				$('.head,.sex,.school,.email,.name,.age,.subtitle').css({
 					'display': 'block'
 				})
@@ -30,8 +22,6 @@ $(document).ready(function(){
 				$('.sex,.school,.email').addClass('animated bounceInLeft');
 				$('.name,.age,.subtitle').addClass('animated bounceInRight');
 			}else if(index == 3){
-				// sizeChange($('.fast'),'slow')
-				// sizeChange($('.familiar'),1500)
 				$('.skill').css({
 					'visibility': 'visible'
 				})
