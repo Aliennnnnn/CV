@@ -2,7 +2,7 @@
 * @Author: Aliennnnnn
 * @Date:   2017-05-06 21:25:34
 * @Last Modified by:   Aliennnnnn
-* @Last Modified time: 2017-05-07 22:30:34
+* @Last Modified time: 2017-05-09 00:02:51
 */
 /*public style*/
 body,
@@ -56,6 +56,9 @@ dt,
 dd
 {
     list-style: none;
+}
+a{
+    text-decoration: none;
 }
 fieldset,
 img
@@ -157,6 +160,16 @@ body
     height: 100%;
     color: #fff;
 }
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+   font-size: 95px;
+}
+.clearboth{
+    clear: both;
+}
 #cv
 {
     width: 100%;
@@ -178,21 +191,21 @@ body
 .hello
 {
     font-size: 100px;
-    margin-left: -150px;
     margin-top: -50px;
+    margin-left: -150px;
 }
 .about img{
-	width: 145px;
-	height: 145px;
-	border-radius: 100px;
-	border:10px solid #aee2d9;
-	box-shadow: 0px 0px 5px; 
-	transition: .5s ease;
+    width: 145px;
+    height: 145px;
+    border-radius: 100px;
+    border:10px solid #aee2d9;
+    box-shadow: 0px 0px 5px; 
+    transition: .5s ease;
     display: none;
     margin-left: 140px;
 }
 .about img:hover{
-	border-color: #d6f285;
+    border-color: #d6f285;
 }
 h1
 {
@@ -234,13 +247,19 @@ h1
 }
 .skills .skill{
     display: inline-block;
-	width: 90px;
-	height: 90px;
-	border-radius: 50px;
-	background-color: #4f4454;/*#2d2b2d;*/
-	text-align: center;
-	line-height: 90px;
+    width: 90px;
+    height: 90px;
+    border-radius: 80px;
+    background-color: #4f4454;/*#2d2b2d;*/
+    text-align: center;
+    line-height: 90px;
     visibility: hidden;
+    transition: .5s ease;
+}
+.skills .skill:hover{
+    width: 100px;
+    height: 100px;
+    border: 5px solid #8e8080;
 }
 .skills .familiar{
     background-color: #575259;
@@ -250,4 +269,54 @@ h1
 }
 .row-1,.row-2,.row-3,.row-4{
     margin: 10px 8px 0 0;
+}
+.row{
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    font-weight: 400;
+    margin-top: 70px;
+}
+.row .part-1,.part-2{
+    width: 600px;
+    float: left;
+}
+.col-2{
+    width: 200px;
+    float: left;
+}
+.row .col-2 a{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: #008a75;
+    color:#f1f1f1;
+    transition: .5s ease;
+}
+.row .col-2 a:hover{
+    opacity: 0.6;
+}
+svg{
+    margin-top: 10px;
+}
+.col-4{
+    width: 400px;
+}
+.col-4 a{
+    display: inline-block;   
+    height: 50px;
+    font-size: 40px;
+    color: #008a75;
+    text-align: left;
+    transition: .5s ease;
+}
+.col-4 a:hover{
+    color:#efef0e;
+}
+.col-4 p{
+    width: 400px;
+    color: #aee2d9;
+    font-size: 20px;  
+    margin: 5px 0 0 30px;
 }
