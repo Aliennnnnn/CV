@@ -2,7 +2,7 @@
 * @Author: Aliennnnnn
 * @Date:   2017-05-06 22:27:17
 * @Last Modified by:   Aliennnnnn
-* @Last Modified time: 2017-05-08 11:07:12
+* @Last Modified time: 2017-05-08 11:10:46
 */
 
 'use strict';
@@ -14,14 +14,7 @@ $(document).ready(function(){
 		'sectionsColor': ['#22B573','#26B1B6','#9C58B6','#9C58B6'],
 		'navigation': true,
 		afterLoad: function(anchorLink,index){
-			//var loadedSection = $(this);
 			if(index == 2){
-				// eleMove($('.name'))
-				// eleMove($('.age'))
-				// eleMove($('.subtitle'))
-				// eleMove($('.sex'))
-				// eleMove($('.email'))
-				// eleMove($('.school'))
 				$('.head,.sex,.school,.email,.name,.age,.subtitle').css({
 					'display': 'block'
 				})
@@ -29,8 +22,6 @@ $(document).ready(function(){
 				$('.sex,.school,.email').addClass('animated bounceInLeft');
 				$('.name,.age,.subtitle').addClass('animated bounceInRight');
 			}else if(index == 3){
-				// sizeChange($('.fast'),'slow')
-				// sizeChange($('.familiar'),1500)
 				$('.skill').css({
 					'visibility': 'visible'
 				})
@@ -39,18 +30,4 @@ $(document).ready(function(){
 			}
 		}
 	})
-
-	//元素从左右进入页面
-	function eleMove(ele){
-		ele.animate({
-			left :'0px'
-		},"easing")
-		
-	}
-
-	function sizeChange(ele,speed){
-		ele.animate({
-			opacity: 1
-		},speed);
-	}
 })
