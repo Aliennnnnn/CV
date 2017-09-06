@@ -2,7 +2,11 @@
 * @Author: Aliennnnnn
 * @Date:   2017-05-06 21:25:34
 * @Last Modified by:   Aliennnnnn
+<<<<<<< HEAD
 * @Last Modified time: 2017-05-08 23:54:44
+=======
+* @Last Modified time: 2017-09-06 23:24:36
+>>>>>>> refs/remotes/origin/master
 */
 /*public style*/
 body,
@@ -159,6 +163,17 @@ body
 {
     height: 100%;
     color: #fff;
+    font-family: Microsoft Yahei;
+}
+.icon {
+   width: 1em; height: 1em;
+   vertical-align: -0.15em;
+   fill: currentColor;
+   overflow: hidden;
+   font-size: 95px;
+}
+.clearboth{
+    clear: both;
 }
 .icon {
    width: 1em; height: 1em;
@@ -195,21 +210,20 @@ body
     margin-left: -150px;
 }
 .about img{
-	width: 145px;
-	height: 145px;
-	border-radius: 100px;
-	border:10px solid #aee2d9;
-	box-shadow: 0px 0px 5px; 
-	transition: .5s ease;
+    width: 145px;
+    height: 145px;
+    border-radius: 100px;
+    border:10px solid #aee2d9;
+    box-shadow: 0px 0px 5px; 
+    transition: .5s ease;
     display: none;
     margin-left: 140px;
 }
 .about img:hover{
-	border-color: #d6f285;
+    border-color: #d6f285;
 }
 h1
 {
-    font-family: Microsoft Yahei;
     font-size: 50px;
     font-weight: bold;
     text-shadow: 1px 2px #22c3aa, 2px 4px #aee2d9;
@@ -247,6 +261,7 @@ h1
 }
 .skills .skill{
     display: inline-block;
+<<<<<<< HEAD
 	width: 90px;
 	height: 90px;
 	border-radius: 80px;
@@ -259,17 +274,69 @@ h1
 .skills .skill:hover{
     width: 100px;
     height: 100px;
+=======
+    width: 90px;
+    height: 90px;
+    border-radius: 80px;
+    background-color: #4f4454;/*#2d2b2d;*/
+    text-align: center;
+    line-height: 90px;
+    visibility: hidden;
+    transition:  .6s ease;
+}
+.skills .skill:hover{
+    width: 95px;
+    height: 95px;
+>>>>>>> refs/remotes/origin/master
     border: 5px solid #8e8080;
 }
 .skills .familiar{
     background-color: #575259;
 }
-.row-1,.row-2{
-    clear: both;
+.project-wrapper h1{
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,0);
 }
-.row-1,.row-2,.row-3,.row-4{
-    margin: 10px 8px 0 0;
+.project{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+.row{
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
+}
+.part-1,.part-2{
+    width: 50%;
+    display: flex;
+}
+.col-2{
+    width: 200px;
+}
+.row .col-2 a{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    background-color: #008a75;
+    color:#f1f1f1;
+    transition: .5s ease;
+}
+.row .col-2 a:hover{
+    opacity: 0.6;
+}
+svg{
+    margin-top: 10px;
+}
+<<<<<<< HEAD
 .row{
     width: 1200px;
     height: 150px;
@@ -302,13 +369,21 @@ svg{
 }
 .col-4{
     width: 400px;
+=======
+.col-4{
+    width: 400px;
+    text-align: left;
+>>>>>>> refs/remotes/origin/master
 }
 .col-4 a{
     display: inline-block;   
     height: 50px;
     font-size: 40px;
     color: #008a75;
+<<<<<<< HEAD
     text-align: left;
+=======
+>>>>>>> refs/remotes/origin/master
     transition: .5s ease;
 }
 .col-4 a:hover{
@@ -317,6 +392,13 @@ svg{
 .col-4 p{
     width: 400px;
     color: #aee2d9;
+<<<<<<< HEAD
     font-size: 20px;  
     margin: 5px 0 0 30px;
 }
+=======
+    color: #fff;
+    font-size: 20px;  
+    margin: 5px 0 0 0px;
+}
+>>>>>>> refs/remotes/origin/master
