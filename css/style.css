@@ -2,7 +2,7 @@
 * @Author: Aliennnnnn
 * @Date:   2017-05-06 21:25:34
 * @Last Modified by:   Aliennnnnn
-* @Last Modified time: 2017-05-09 00:02:51
+* @Last Modified time: 2017-09-06 23:24:36
 */
 /*public style*/
 body,
@@ -159,6 +159,7 @@ body
 {
     height: 100%;
     color: #fff;
+    font-family: Microsoft Yahei;
 }
 .icon {
    width: 1em; height: 1em;
@@ -209,7 +210,6 @@ body
 }
 h1
 {
-    font-family: Microsoft Yahei;
     font-size: 50px;
     font-weight: bold;
     text-shadow: 1px 2px #22c3aa, 2px 4px #aee2d9;
@@ -254,36 +254,43 @@ h1
     text-align: center;
     line-height: 90px;
     visibility: hidden;
-    transition: .5s ease;
+    transition:  .6s ease;
 }
 .skills .skill:hover{
-    width: 100px;
-    height: 100px;
+    width: 95px;
+    height: 95px;
     border: 5px solid #8e8080;
 }
 .skills .familiar{
     background-color: #575259;
 }
-.row-1,.row-2{
-    clear: both;
+.project-wrapper h1{
+    position: absolute;
+    top:10%;
+    left:50%;
+    transform: translate(-50%,0);
 }
-.row-1,.row-2,.row-3,.row-4{
-    margin: 10px 8px 0 0;
+.project{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .row{
-    width: 1200px;
-    height: 150px;
-    margin: 0 auto;
-    font-weight: 400;
-    margin-top: 70px;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 60px;
 }
-.row .part-1,.part-2{
-    width: 600px;
-    float: left;
+.part-1,.part-2{
+    width: 50%;
+    display: flex;
 }
 .col-2{
     width: 200px;
-    float: left;
 }
 .row .col-2 a{
     display: inline-block;
@@ -302,13 +309,13 @@ svg{
 }
 .col-4{
     width: 400px;
+    text-align: left;
 }
 .col-4 a{
     display: inline-block;   
     height: 50px;
     font-size: 40px;
     color: #008a75;
-    text-align: left;
     transition: .5s ease;
 }
 .col-4 a:hover{
@@ -317,6 +324,7 @@ svg{
 .col-4 p{
     width: 400px;
     color: #aee2d9;
+    color: #fff;
     font-size: 20px;  
-    margin: 5px 0 0 30px;
+    margin: 5px 0 0 0px;
 }
