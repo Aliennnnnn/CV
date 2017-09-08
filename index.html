@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1" />  --> 
         <title>王亚东的简历</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
         <link rel="stylesheet" type="text/css" href="css/animate.min.css">
@@ -17,9 +18,9 @@
                 <div class="about">
                     <img class="head" src="img/52addca960783bb5f67c936edc037d67.jpg">
                     <h1 class="name">王亚东</h1>
-                    <p class="sex">男</p>
-                    <p class="age">20岁</p>
+                    <p class="info">男 / 20岁</p>                   
                     <p class="school">安徽理工大学</p>
+                    <p class="cet">CET-6</p>
                     <p class="subtitle">路漫漫其修远兮，吾将上下而求索</p>
                     <p class="email">
                         <a href="mailto:aliennnnnn@foxmail.com">aliennnnnn@foxmail.com</a>
@@ -33,8 +34,7 @@
                         <span class="skill fast">jQuery</span>
                         <span class="skill familiar">Bootstrap</span>
                         <span class="skill familiar">Vue.js</span>
-                    </div>
-                    
+                    </div>                   
                     <div class="row-2">
                         <span class="skill fast">HTML</span>    
                         <span class="skill fast">CSS</span>
@@ -54,66 +54,87 @@
                 </div>
             </div>
             <div class="section project-wrapper">
-                <h1>项目经验</h1>
-                <div class="project">                   
-                    <div class="row">
-                        <div class="part-1">
-                            <div class="col-2">
-                                <a target="_blank" href="https://github.com/Aliennnnnn/JD/tree/master/JingDong">
+                    <h1>项目经验</h1>
+                    <ul class="projects">                   
+                        <li class="project">
+                            <div class="pro-icon">
+                                <a target="_blank" href="https://github.com/Aliennnnnn/IFE">
                                     <svg class="icon" aria-hidden="true">
-                                        <use xlink:href="#icon-JD"></use>
+                                        <use xlink:href="#icon-baidu"></use>
                                     </svg>
                                 </a>
                             </div>      
-                            <div class="col-4">
-                                <a target="_blank" href="https://github.com/Aliennnnnn/JD/tree/master/JingDong">京东首页</a>
-                                <p>独立完成京东首页及其动态效果</p>
+                            <div class="pro-intro">
+                                <a target="_blank" href="https://github.com/Aliennnnnn/IFE">IFE</a>
+                                <p>完成IFE（百度前端技术学院）大部分Task。</p>
                             </div>
-                        </div>
-                        <div class="part-2">
-                            <div class="col-2">
+                        </li>
+                        <li class="project">
+                            <div class="pro-icon">
                                 <a target="_blank" href="https://github.com/Aliennnnnn/Vue-demos/tree/master/zhihu">
                                     <svg class="icon" aria-hidden="true">
                                         <use xlink:href="#icon-daoruzhihu"></use>
                                     </svg>
                                 </a>
                             </div>      
-                            <div class="col-4">
+                            <div class="pro-intro">
                                 <a target="_blank" href="https://github.com/Aliennnnnn/Vue-demos/tree/master/zhihu">知乎</a>
-                                <p>Vue完成的仿知乎，数据为mock得到</p>
+                                <p>用于练手的Vue项目，基于Vue.js,Vue-cli,Vue-router,Axios。数据由mock得到，配合json-server实现模拟后端传入的数据。</p>
                             </div>
-                        </div>
-                        <div class="clearboth"></div>
-                    </div>
-                    <div class="row">
-                        <div class="part-1">
-                            <div class="col-2">
+                        </li>
+                        <li class="project">
+                            <div class="pro-icon">
                                 <a target="_blank" href="https://github.com/Aliennnnnn/B2C/tree/gh-pages/B2C">
                                     <svg class="icon" aria-hidden="true">
                                         <use xlink:href="#icon-icon-test"></use>
                                     </svg>
                                 </a>
                             </div>      
-                            <div class="col-4">
+                            <div class="pro-intro">
                                 <a target="_blank" href="https://github.com/Aliennnnnn/B2C/tree/gh-pages/B2C">100du</a>
-                                <p>B2C网站100du制作</p>
+                                <p>使用了jQuery,tween.js实现的一个电子商务网站首页及动态效果。</p>
                             </div>
-                        </div>
-                        <div class="part-2">
-                            <div class="col-2">
+                        </li>
+                        <li class="project">
+                            <div class="pro-icon">
                                 <a target="_blank" href="https://github.com/Aliennnnnn/Vue-demos/tree/master/vue-music">
                                     <svg class="icon" aria-hidden="true">
                                         <use xlink:href="#icon-vue"></use>
                                     </svg>
                                 </a>
                             </div>      
-                            <div class="col-4">
+                            <div class="pro-intro">
                                 <a target="_blank" href="https://github.com/Aliennnnnn/Vue-demos/tree/master/vue-music">移动端音乐APP</a>
-                                <p>使用Vue全家桶（Vue.js、Vue-cli、Vue-router、Vuex开发，数据抓取于QQ音乐</p>
+                                <p>移动端的Vue项目，使用了Vue全家桶 + Axios + Jsonp + ES6 + Webpack。</p>
+                                <p>13个基础组件（scroll,loading,song-list,slider...），15个业务组件（add-song,player,singer,suggest...）</p>
                             </div>
-                        </div>
-                        <div class="clearboth"></div>
-                    </div>
+                        </li>
+                    </ul>
+                    <p class="more">更多精彩，敬请移步 <a href="https://github.com/Aliennnnnn">Github</a></p>
+            </div>
+            <div class="section">
+                <div class="contact">
+                    <h1>联系方式</h1>
+                    <p>
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-1"></use>
+                        </svg>
+                        Email: 
+                        <a href="mailto:aliennnnnn@foxmail.com">aliennnnnn@foxmail.com</a>
+                    </p>
+                    <p>
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-qq"></use>
+                        </svg>
+                        QQ: 994480559
+                    </p>
+                    <p>
+                        <svg class="icon" aria-hidden="true">
+                            <use xlink:href="#icon-shoujihao"></use>
+                        </svg>
+                        Mobile: 18855468845
+                    </p>
+                    <p class="download"><a href="https://aliennnnnn.github.io/CV/cv.pdf">简历下载</a></p>
                 </div>
             </div>
         </div>
