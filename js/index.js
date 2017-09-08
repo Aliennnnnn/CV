@@ -2,21 +2,24 @@
 * @Author: Aliennnnnn
 * @Date:   2017-05-06 22:27:17
 * @Last Modified by:   Aliennnnnn
-* @Last Modified time: 2017-09-06 23:23:01
+* @Last Modified time: 2017-09-07 09:36:59
 */
 $(document).ready(function(){
 	$('#cv').fullpage({
 		'verticalCentered': true,
 		'css3': true,
-		'sectionsColor': ['#26B1B6','#9C58B6','#18E2CB'],
+		'sectionsColor': ['#26B1B6','#9C58B6','#18E2CB','#C7C8A8'],
 		'navigation': true,
+		'navigationTooltips':['首页','技能','项目','联系'],
+		'loopBottom': true,
+		'loopTop': true,
 		afterRender: function(){
-			$('.head,.sex,.school,.email,.name,.age,.subtitle').css({
+			$('.head,.sex,.school,.email,.cet,.name,.age,.subtitle').css({
 				'display': 'block'
 			})
 			$('.head').addClass('animated bounceInDown');
-			$('.sex,.school,.email').addClass('animated bounceInLeft');
-			$('.name,.age,.subtitle').addClass('animated bounceInRight');
+			$('.info,.cet,.email').addClass('animated bounceInLeft');
+			$('.name,.school,.subtitle').addClass('animated bounceInRight');
 		},
 		afterLoad: function(anchorLink,index){
 			if(index == 2){

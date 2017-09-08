@@ -2,7 +2,7 @@
 * @Author: Aliennnnnn
 * @Date:   2017-05-06 21:25:34
 * @Last Modified by:   Aliennnnnn
-* @Last Modified time: 2017-09-06 23:24:36
+* @Last Modified time: 2017-09-08 21:20:44
 */
 /*public style*/
 body,
@@ -217,11 +217,13 @@ h1
 .about .name{
     display: none;
 }
-.about .sex,
-.age,
+.about .cet{
+    font-size: 30px;
+}
+.about
 .school
 {
-    font-size: 20px;
+    font-size: 25px;
     margin-top: 10px;
     display: none;
 }
@@ -264,35 +266,49 @@ h1
 .skills .familiar{
     background-color: #575259;
 }
+/*.row-1,.row-2{
+    clear: both;
+}
+.row-1,.row-2,.row-3,.row-4{
+    margin: 10px 8px 0 0;
+}
+.row{
+    width: 1200px;
+    height: 150px;
+    margin: 0 auto;
+    font-weight: 400;
+    margin-top: 70px;
+}
+.row .part-1,.part-2{
+    width: 600px;
+    float: left;
+}*/
+.project-wrapper{
+
+}
 .project-wrapper h1{
     position: absolute;
-    top:10%;
-    left:50%;
+    left: 50%;
+    top: 10%;
     transform: translate(-50%,0);
 }
-.project{
+.projects{
     width: 100%;
     height: 100%;
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-.row{
-    width: 80%;
-    display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
+    align-content: center;
     justify-content: center;
-    margin-top: 60px;
 }
-.part-1,.part-2{
-    width: 50%;
+.project{
+    width: 40%;
     display: flex;
+    justify-content: flex-start;
+    margin-right: 10px;
+    margin-bottom: 60px;
 }
-.col-2{
-    width: 200px;
-}
-.row .col-2 a{
+.pro-icon a{
     display: inline-block;
     width: 120px;
     height: 120px;
@@ -301,30 +317,71 @@ h1
     color:#f1f1f1;
     transition: .5s ease;
 }
-.row .col-2 a:hover{
+.pro-icon a:hover{
     opacity: 0.6;
 }
-svg{
-    margin-top: 10px;
+.pro-icon svg{
+    margin: 10px 0 0 10px;
 }
-.col-4{
-    width: 400px;
-    text-align: left;
+.pro-intro{
+    margin-left: 20px;
 }
-.col-4 a{
+.pro-intro a{
     display: inline-block;   
     height: 50px;
-    font-size: 40px;
+    font-size: 30px;
     color: #008a75;
     transition: .5s ease;
 }
-.col-4 a:hover{
+.pro-intro a:hover{
     color:#efef0e;
 }
-.col-4 p{
-    width: 400px;
-    color: #aee2d9;
+.pro-intro p{
+    font-size: 18px;
+}
+
+.more{
     color: #fff;
-    font-size: 20px;  
-    margin: 5px 0 0 0px;
+    font-size: 25px;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translate(-50%,0);
+}
+.more a{
+    color:#efef0e;
+    transition: .5s ease;
+}
+.more a:hover{
+    color: #008a75;
+}
+.contact h1{
+    margin-bottom: 50px;
+}
+.contact p{
+    font-size: 30px;
+    margin-top: 20px;
+}
+.contact p a{
+    text-decoration: underline;
+    color: #fff;
+    transition: .5s ease;
+}
+.contact p a:hover{
+    color: #8ABEB2;
+}
+.contact .icon{
+    font-size: 35px;
+}
+.contact .download{
+    font-size: 40px;
+    
+}
+.contact .download a{
+    color: #00A4CD;
+    text-decoration: none;
+}
+.contact .download a:hover{
+    color: #006CA5;
+    text-decoration: underline;
 }
