@@ -2,7 +2,7 @@
 * @Author: Aliennnnnn
 * @Date:   2017-05-06 21:25:34
 * @Last Modified by:   Aliennnnnn
-* @Last Modified time: 2017-09-08 21:20:44
+* @Last Modified time: 2017-09-25 11:12:22
 */
 /*public style*/
 body,
@@ -195,18 +195,21 @@ body
     margin-top: -50px;
     margin-left: -150px;
 }
-.about img{
+.about>div{
     width: 145px;
-    height: 145px;
-    border-radius: 100px;
+    height: 203px;
     border:10px solid #aee2d9;
     box-shadow: 0px 0px 5px; 
     transition: .5s ease;
-    display: none;
     margin-left: 140px;
+    overflow: hidden;
 }
-.about img:hover{
+.about>div:hover{
     border-color: #d6f285;
+}
+.about>div img{
+    width: 145px;
+
 }
 h1
 {
