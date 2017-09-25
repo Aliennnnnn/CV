@@ -2,7 +2,7 @@
 * @Author: Aliennnnnn
 * @Date:   2017-05-06 22:27:17
 * @Last Modified by:   Aliennnnnn
-* @Last Modified time: 2017-09-07 09:36:59
+* @Last Modified time: 2017-09-25 11:23:35
 */
 $(document).ready(function(){
 	$('#cv').fullpage({
@@ -14,10 +14,10 @@ $(document).ready(function(){
 		'loopBottom': true,
 		'loopTop': true,
 		afterRender: function(){
-			$('.head,.sex,.school,.email,.cet,.name,.age,.subtitle').css({
+			$('.sex,.school,.email,.cet,.name,.age,.subtitle').css({
 				'display': 'block'
 			})
-			$('.head').addClass('animated bounceInDown');
+			// $('.head').addClass('animated bounceInDown');
 			$('.info,.cet,.email').addClass('animated bounceInLeft');
 			$('.name,.school,.subtitle').addClass('animated bounceInRight');
 		},
